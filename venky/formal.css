@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.payment-box{
+    background:white;
+    width:320px;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+.option{
+    display:flex;
+    align-items:center;
+    justify-content:left;
+    padding:12px;
+    margin:10px 0;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    border:1px solid #ccc;
+}
+
+.logo{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-right:10px;
+    color:white;
+    font-size:18px;
+}
+
+/* Google Pay Style */
+.gpay .logo{
+    background:#4285F4;
+}
+
+/* PhonePe Style */
+.phonepe .logo{
+    background:#5f259f;
+}
+
+/* Paytm Style */
+.paytm .logo{
+    background:#00baf2;
+}
+
+button{
+    margin-top:20px;
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#28a745;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#218838;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html><DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+  
+  
+  
+  body{
+font-family: Arial;
+background:#2b2b2b;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.login-box{
+background:#333;
+padding:40px;
+border-radius:10px;
+text-align:center;
+color:white;
+}
+
+input{
+display:block;
+width:200px;
+margin:10px auto;
+padding:8px;
+border:none;
+border-bottom:2px solid orange;
+background:transparent;
+color:white;
+}
+
+button{
+padding:10px 30px;
+background:orange;
+border:none;
+border-radius:20px;
+cursor:pointer;
+}
+
+#error{
+color:red;
+margin-top:10px;
+}
+</style>
+
+<body>
+  <form action="website.html">
+
+<div class="login-box">
+
+<h2>Login</h2>
+
+<input type="text" id="username" placeholder="Enter Username">
+<input type="password" id="password" placeholder="Enter Password">
+
+<button onclick="login()">Login</button>
+<script>
+  
+  function login(){
+
+var user = document.getElementById("username").value;
+var pass = document.getElementById("password").value;
+
+if(user=="admin" && pass=="1234")
+{
+alert("Login Successful");
+window.location="home.html";
+}
+else
+{
+document.getElementById("error").innerHTML="Wrong Username or Password";
+}
+
+}
+  
+  
+  
+  
+</script>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>image</title>
+</head>
+<style>
+body{
+
+
+  background-image: url('sri\ anjaneya.jpeg');
+}
+
+
+</style>
+<body>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
